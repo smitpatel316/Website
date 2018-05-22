@@ -3,8 +3,92 @@
     <title>
         Courses
     </title>
+	<style>
+	#customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+	border: 2px solid black;
+	}
+
+	#customers td, #customers th {
+		border: 2px solid black;
+		padding: 8px;
+		text-align: center;
+	}
+	#customers td{
+	vertical-align: text-top;
+	}
+	#customers tr:nth-child(odd){background-color: #ddd;}
+	#customers tr:hover {background-color: silver;}
+
+	#customers th {
+		padding-top: 12px;
+		padding-bottom: 12px;
+		text-align: center;
+		background-color: #C80000;
+		color: black;
+	}
+	</style>
 </head>
 <body>
-
+<h1>Year 1</h1>
+<h2>Fall 2017</h2>
+<table id="customers">
+  <tr>
+    <th width = "20%"><h3>CSCA08</h3>Introduction to Computer Science I</th>
+    <th width = "20%"><h3>CSCA67</h3>Discrete Mathematics</th>
+    <th width = "20%"><h3>MATA31</h3>Calculus I for Mathematical Sciences</th>
+	<th width = "20%"><h3>LINA01</h3>Introduction to Linguistics</th>
+	<th width = "20%"><h3>PSYA01</h3>Introduction to Biological and Cognitive Psychology</th>
+  </tr>
+  <tr>
+    <td><h3>Description</h3>Programming in an object-oriented language such as Python. 
+	Program structure: elementary data types, statements, control flow, functions, classes, objects, methods. Lists; searching, sorting and complexity. 
+	This course is intended for students having a serious interest in higher level computer science courses, or planning to complete a computer science program.</td>
+     <td><h3>Description</h3>Introduction to discrete mathematics: Elementary combinatorics; discrete probability including conditional probability and independence; graph theory including trees, planar graphs, searches and traversals, colouring. 
+	 The course emphasizes topics of relevance to computer science, and exercises problem-solving skills and proof techniques such as well ordering, induction, contradiction, and counterexample.</td>
+    <td><h3>Description</h3>A conceptual introduction to Differential Calculus of algebraic and transcendental functions of one variable; focus on logical reasoning and fundamental notions; first introduction into a rigorous mathematical theory with applications. 
+	Course covers: real numbers, set operations, supremum, infimum, limits, continuity, Intermediate Value Theorem, derivative, differentiability, related rates, Fermat's, Extreme Value, Rolle's and Mean Value Theorems, curve sketching, optimization, and antiderivatives.</td>
+	<td><h3>Description</h3>An introduction to the various methods and theories of analyzing speech sounds, words, sentences and meanings, both in particular languages and language in general.</td>
+	<td><h3>Description</h3>This course provides a general overview of topics including research techniques in psychology, evolutionary psychology, the biology of behaviour, learning and behaviour, sensation, perception, memory and consciousness. 
+	The most influential findings from each of these areas will be highlighted.</td>
+  </tr>
+ </table>
+ <h2>Winter 2018</h2>
+ <table id="customers">
+  <tr>
+    <th width = "20%"><h3>CSCA48</h3>Introduction to Computer Science II</th>
+    <th width = "20%"><h3>MATA22</h3>Linear Algebra I for Mathematical Sciences</th>
+    <th width = "20%"><h3>MATA37</h3>Calculus II for Mathematical Sciences</th>
+	<th width = "20%"><h3>PHLA11</h3>Introduction to Ethics</th>
+	<th width = "20%"><h3>EESA06</h3>Introduction to Planet Earth</th>
+  </tr>
+  <tr>
+    <td><h3>Description</h3>Abstract data types and data structures for implementing them. Linked data structures. Object Oriented Programming. Encapsulation and information-hiding. Testing. Specifications. Analyzing the efficiency of programs. Recursion.</td>
+     <td><h3>Description</h3>A conceptual and rigorous approach to introductory linear algebra that focuses on mathematical proofs, the logical development of fundamental structures, and essential computational techniques. This course covers complex numbers, vectors in Euclidean n-space, systems of linear equations, matrices and matrix algebra, Gaussian reduction, structure theorems for solutions of linear systems, dependence and independence, rank equation, linear transformations of Euclidean n-space, determinants, Cramer's rule, eigenvalues and eigenvectors, characteristic polynomial, and diagonalization.</td>
+    <td><h3>Description</h3>A rigorous introduction to Integral Calculus of one variable and infinite series; strong emphasis on combining theory and applications; further developing of tools for mathematical analysis. Riemann Sum, definite integral, Fundamental Theorem of Calculus, techniques of integration, improper integrals, numerical integration, sequences and series, absolute and conditional convergence of series, convergence tests for series, Taylor polynomials and series, power series and applications.</td>
+	<td><h3>Description</h3>Ethics is concerned with concrete questions about how we ought to treat one another as well as more general questions about how to justify our ethical beliefs. This course is an introduction that both presents basic theories of ethics and considers their application to contemporary moral problems.</td>
+	<td><h3>Description</h3>This general interest course explores the composition, structure and origin of the Earth and the tectonic, chemical and biological processes that have evolved over the last 4.5 billion years.   It explains how planet "works" as a complex system.  It provides a fundamental basis for understanding many of the environmental challenges faced by human societies especially natural hazards, water shortages, and climate change, and the importance of natural resources to our economy.</td>
+  </tr>
+ </table>
+<h1>Year 2</h1>
+<h2>Summer 2018</h2>
+ <table id="customers">
+  <tr>
+    <th width = "20%"><h3>CSCB09</h3>Software Tools and Systems Programming</th>
+    <th width = "20%"><h3>CSCB58</h3>Computer Organization</th>
+    <th width = "20%"><h3>CSCB36</h3>Introduction to the Theory of Computation</th>
+	<th width = "20%"><h3>STAB52</h3>An Introduction to Probability</th>
+	<th width = "20%"><h3>MGTA01</h3>Introduction to Business</th>
+  </tr>
+  <tr>
+    <td><h3>Description</h3>Software techniques in a Unix-style environment, using scripting languages and a machine-oriented programming language (typically C). What goes on in the system when programs are executed. Core topics: creating and using software tools, pipes and filters, file processing, shell programming, processes, system calls, signals, basic network programming.</td>
+     <td><h3>Description</h3>Principles of the design and operation of digital computers. Binary data representation and manipulation, Boolean logic, components of computer systems, memory technology, peripherals, structure of a CPU, assembly languages, instruction execution, and addressing techniques. There are a number of laboratory periods in which students conduct experiments with digital logic circuits.</td>
+    <td><h3>Description</h3>Mathematical induction with emphasis on applications relevant to computer science. Aspects of mathematical logic, correctness proofs for iterative and recursive algorithms, solutions of linear and divide-and-conquer recurrences, introduction to automata and formal languages.</td>
+	<td><h3>Description</h3>A mathematical treatment of probability. The topics covered include: the probability model, density and distribution functions, computer generation of random variables, conditional probability, expectation, sampling distributions, weak law of large numbers, central limit theorem, Monte Carlo methods, Markov chains, Poisson processes, simulation, applications. A computer package will be used.</td>
+	<td><h3>Description</h3>This course serves as an introduction to the organizations called businesses. The course looks at how businesses are planned, organized and created, and the important role that businesses play within the Canadian economic system.</td>
+  </tr>
+ </table>
 </body>
 </html>
