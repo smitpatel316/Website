@@ -17,3 +17,7 @@ header {
 section {
   padding: 150px 0;
 }
+
+#courseList a {
+  font-size: 18px;
+}

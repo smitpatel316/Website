@@ -2,19 +2,7 @@
 <html lang="en">
 
 <head>
-  <SCRIPT language=JavaScript>
 
-    <!-- http://www.spacegun.co.uk -->
-
-  var message = "Function Disabled";
-
-  function rtclickcheck(keyp){ if (navigator.appName == "Netscape" && keyp.which == 3){ alert(message); return false; }
-
-  if (navigator.appVersion.indexOf("MSIE") != -1 && event.button == 2) { alert(message); return false; } }
-
-  document.onmousedown = rtclickcheck;
-
-  </SCRIPT>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
@@ -27,6 +15,8 @@
 
   <!-- Custom styles for this template -->
   <link href="css/scrolling-nav.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 
@@ -71,8 +61,8 @@
       <div class="row">
         <div class="col-lg-8 mx-auto">
           <h2>About</h2>
-          <p class="lead">I am an second year Computer Science student at University of Toronto. I am currently seeking
-            Co-op placement for Winter 2019.</p>
+          <p class="lead">Computer Science student specializing in Software Engineering at University of Toronto. <br>
+            Seeking opportunities to gain unique experience(s) and expand skill sets.</p>
         </div>
       </div>
     </div>
@@ -93,8 +83,103 @@
       <div class="row">
         <div class="col-lg-8 mx-auto">
           <h2>Courses</h2>
-          <p class="lead">Here are the <a href="http://smitpatel.net/courses.html">courses</a> which I have finished at
-            University of Toronto. </p>
+          <div class="row">
+            <div class="col-md-6">
+              <h5>Fall 2017</h5>
+              <ul id="courseList">
+                <li>
+                  <a href="https://utsc.calendar.utoronto.ca/course/CSCA08H3">CSCA08: Introduction to
+                    Computer Science
+                    I</a>
+                </li>
+                <li>
+                  <a href="https://utsc.calendar.utoronto.ca/course/CSCA67H3">CSCA67: Descrete Mathematics</a>
+                </li>
+                <li>
+                  <a href="https://utsc.calendar.utoronto.ca/course/MATA31H3">MATA31: Calculus I for Mathematical
+                    Sciences</a>
+                </li>
+                <li>
+                  <a href="https://utsc.calendar.utoronto.ca/course/LINA01H3">LINA01: Introduction to Linguistics</a>
+                </li>
+                <li>
+                  <a href="https://utsc.calendar.utoronto.ca/course/PSYA01H3">PSYA01: Introduction to Biological and
+                    Cognitive Psychology</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <h5>Winter 2018</h5>
+              <ul id="courseList">
+                <li>
+                  <a href="https://utsc.calendar.utoronto.ca/course/CSCA48H3">CSCA48: Introduction to Computer Science
+                    II</a>
+                </li>
+                <li>
+                  <a href="https://utsc.calendar.utoronto.ca/course/MATA22H3">MATA22: Linear Algebra I for Mathematical
+                    Sciences</a>
+                </li>
+                <li>
+                  <a href="https://utsc.calendar.utoronto.ca/course/MATA37H3">MATA37: Calculus II for Mathematical
+                    Sciences</a>
+                </li>
+                <li>
+                  <a href="https://utsc.calendar.utoronto.ca/course/PHLA11H3">PHLA11: Introduction to Ethics</a>
+                </li>
+                <li>
+                  <a href="https://utsc.calendar.utoronto.ca/course/EESA06H3">EESA06: Introduction to Planet Earth</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <h5>Summer 2018</h5>
+              <ul id="courseList">
+                <li>
+                  <a href="https://utsc.calendar.utoronto.ca/course/CSCB09H3">CSCB09: Software Tools and Systems
+                    Programming</a>
+                </li>
+                <li>
+                  <a href="https://utsc.calendar.utoronto.ca/course/CSCB58H3">CSCB58: Computer Organization</a>
+                </li>
+                <li>
+                  <a href="https://utsc.calendar.utoronto.ca/course/CSCB36H3">CSCB36: Introduction to the Theory of
+                    Computation
+                    Sciences</a>
+                </li>
+                <li>
+                  <a href="https://utsc.calendar.utoronto.ca/course/STAB52H3">STAB52: An Introduction to Probability</a>
+                </li>
+                <li>
+                  <a href="https://utsc.calendar.utoronto.ca/course/MGTA01H3">MGTA01: Introduction to Business</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <h5>Fall 2018</h5>
+              <ul id="courseList">
+                <li>
+                  <a href="https://utsc.calendar.utoronto.ca/course/CSCB07H3">CSCB07: Software Design</a>
+                </li>
+                <li>
+                  <a href="https://utsc.calendar.utoronto.ca/course/MATB24H3">MATB24: Linear Algebra II for
+                    Mathematical Sciences</a>
+                </li>
+                <li>
+                  <a href="https://utsc.calendar.utoronto.ca/course/MATB41H3">MATB41: Techniques of the Calculus of
+                    Several Variables I</a>
+                </li>
+                <li>
+                  <a href="https://utsc.calendar.utoronto.ca/course/MGTA02H3">MGTA02: Managing the Business
+                    Organization</a>
+                </li>
+                <li>
+                  <a href="https://utsc.calendar.utoronto.ca/course/MDSA01H3">MDSA01: Introduction to Media Studies</a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -106,6 +191,9 @@
           <h2>Contact</h2>
           <p class="lead"><strong>Email: </strong> <a href="mailto:smitpatel316@gmail.com">smitpatel316@gmail.com</a><br />
             <strong>Telephone: </strong>(647)-760-6530</p>
+          <a href="https://www.linkedin.com/in/smit-p-973971129" target="_blank"><button type="button" class="btn btn-li"><i
+                class="fa fa-linkedin left"></i></button></a>
+          <a href="https://github.com/smitpatel316" target="_blank"><button type="button" class="btn btn-li"><i class="fa fa-github left"></i></button></a>
         </div>
       </div>
     </div>
@@ -114,7 +202,7 @@
   <!-- Footer -->
   <footer class="py-5 bg-dark">
     <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; Smit Patel 2018</p>
+      <p class="m-0 text-center text-white">Copyright &copy; Smit Patel 2019</p>
     </div>
     <!-- /.container -->
   </footer>
