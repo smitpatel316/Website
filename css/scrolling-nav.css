@@ -3,6 +3,7 @@
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
  */
+@import url('https://fonts.googleapis.com/css?family=Acme|Francois+One');
 
 header {
   padding: 154px 0 100px;
@@ -29,4 +30,25 @@ section {
 
 #Icon2 {
   font-size: 30px;
+}
+
+.bg-primary {
+  background-color: black !important;
+  background-image: url("../background.jpg");
+  background-size: 100%;
+}
+
+#headTitle {
+  color: black;
+  text-align: left;
+  font-family: 'Acme', sans-serif;
+  text-shadow: -1px 0 rgb(115, 77, 38), 0 1px rgb(115, 77, 38), 1px 0 rgb(115, 77, 38), 0 -1px rgb(115, 77, 38);
+}
+
+#headTag {
+  text-align: left;
+  font-family: 'Francois One', sans-serif;
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+  text-shadow: -1px 0 rgb(115, 77, 38), 0 1px rgb(115, 77, 38), 1px 0 rgb(115, 77, 38), 0 -1px rgb(115, 77, 38);
 }
