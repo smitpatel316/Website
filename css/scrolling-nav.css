@@ -36,6 +36,7 @@ section {
   background-color: black !important;
   background-image: url("../background.jpg");
   background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 #headTitle {
@@ -51,4 +52,9 @@ section {
   color: rgb(0, 0, 0);
   font-size: 25px;
   text-shadow: -1px 0 rgb(115, 77, 38), 0 1px rgb(115, 77, 38), 1px 0 rgb(115, 77, 38), 0 -1px rgb(115, 77, 38);
+}
+
+img {
+  height: 125%;
+  width: 125%;
 }
