@@ -34,26 +34,26 @@ section {
 
 .bg-primary {
   background-color: black !important;
-  background-image: url('../background.jpg');
-  background-size: 100%;
-  background-repeat: no-repeat;
+  background-image: url(https://wallpapercave.com/wp/wp1828915.png);
+  background-position: center;
+  background-size: 50%;
 }
 
 #headTitle {
   color: black;
   text-align: left;
-  font-family: 'Acme', sans-serif;
-  text-shadow: -1px 0 rgb(115, 77, 38), 0 1px rgb(115, 77, 38),
-    1px 0 rgb(115, 77, 38), 0 -1px rgb(115, 77, 38);
+  font-family: 'Francois One', sans-serif;
+  text-shadow: -0.3px 0 rgb(7, 22, 88), 0 0.3px rgb(7, 22, 88),
+    0.3px 0 rgb(7, 22, 88), 0 -0.3px rgb(7, 22, 88);
 }
 
 #headTag {
   text-align: left;
   font-family: 'Francois One', sans-serif;
-  color: rgb(0, 0, 0);
+  color: whitesmoke;
   font-size: 25px;
-  text-shadow: -1px 0 rgb(115, 77, 38), 0 1px rgb(115, 77, 38),
-    1px 0 rgb(115, 77, 38), 0 -1px rgb(115, 77, 38);
+  text-shadow: -3px 0 rgb(7, 22, 88), 0 3px rgb(7, 22, 88), 3px 0 rgb(7, 22, 88),
+    0 -3px rgb(7, 22, 88);
 }
 
 img {
