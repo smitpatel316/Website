@@ -26,9 +26,14 @@
         "url": "https://github.com/BlackrockDigital/startbootstrap-scrolling-nav.git"
     },
     "dependencies": {
+        "axios": "^0.18.1",
         "bootstrap": "4.3.1",
+        "braces": "^2.3.1",
         "jquery": "3.3.1",
-        "jquery.easing": "^1.4.1"
+        "jquery.easing": "^1.4.1",
+        "lodash": "^4.17.13",
+        "lodash.template": "^4.5.0",
+        "set-value": "^2.0.1"
     },
     "devDependencies": {
         "browser-sync": "2.24.3",
